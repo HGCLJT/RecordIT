@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f8f0e7">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/icon-180.png">
+  <link rel="icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>DoI</title>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="wordmark">
+        <img src="./icons/icon-192.png" alt="" width="34" height="34">
+        <span>DoI</span>
+      </div>
+      <span id="cache-state" class="cache-state" role="status" hidden></span>
+    </header>
+    <main id="page" tabindex="-1" aria-busy="true">
+      <p class="empty-state">正在打开 DoI…</p>
+      <noscript><p>请启用 JavaScript 以使用 DoI。</p></noscript>
+    </main>
+  </div>
+  <nav id="tabbar" class="tabbar" aria-label="主导航">
+    <button type="button" data-view="calendar" aria-current="page">
+      <span class="nav-icon nav-calendar" aria-hidden="true"></span>月历
+    </button>
+    <button type="button" data-view="stats">
+      <span class="nav-icon nav-stats" aria-hidden="true"></span>统计
+    </button>
+    <button type="button" data-view="album">
+      <span class="nav-icon nav-album" aria-hidden="true"></span>相册
+    </button>
+    <button type="button" data-view="settings">
+      <span class="nav-icon nav-settings" aria-hidden="true"></span>设置
+    </button>
+  </nav>
+  <p id="notice" class="notice" role="status" hidden></p>
+  <dialog id="sheet" class="sheet" aria-labelledby="sheet-title"></dialog>
+</body>
+</html>

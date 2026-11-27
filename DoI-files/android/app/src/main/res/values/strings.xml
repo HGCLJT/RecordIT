@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DoI</string>
+    <string name="launch_loading">正在打开 DoI…</string>
+    <string name="launch_failed">暂时无法打开 DoI。请联网后重试。</string>
+    <string name="webview_update_required">请更新手机的 Android System WebView，然后重试。</string>
+    <string name="retry">重试</string>
+</resources>

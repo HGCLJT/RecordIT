@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="doi_surface">#F8F0E7</color>
+    <color name="doi_ink">#392923</color>
+    <color name="doi_brand">#884F47</color>
+
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowBackground">@color/doi_surface</item>
+        <item name="android:colorAccent">@color/doi_brand</item>
+        <item name="android:statusBarColor">@color/doi_surface</item>
+        <item name="android:navigationBarColor">@color/doi_surface</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+{
+  "name": "your-pages-project",
+  "compatibility_date": "2026-11-19",
+  "pages_build_output_dir": "./public",
+  "vars": { "B2_BUCKET": "your-b2-bucket" },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "your-d1-database",
+      "database_id": "00000000-0000-0000-0000-000000000000"
+    }
+  ]
+}
